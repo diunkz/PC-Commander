@@ -45,7 +45,7 @@ def handle_message(msg):
 def show_menu(chat_id):
     # Cria os botões para o menu
     button1 = KeyboardButton(text='Mostrar Processos abertos')
-    button2 = KeyboardButton(text='Desligar PC...')
+    button2 = KeyboardButton(text='Desligar PC')
 
     # Cria o teclado com os botões
     keyboard = ReplyKeyboardMarkup(keyboard=[[button1], [button2]], resize_keyboard=True)
