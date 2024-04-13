@@ -15,7 +15,7 @@ current_user = os.environ.get('USERNAME')
 startup_folder = f"C:\\Users\\{current_user}\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup"
 
 # Caminho completo para o atalho na pasta de inicialização
-shortcut_path = os.path.join(startup_folder, "Diunkz PC Configurator.lnk")
+shortcut_path = os.path.join(startup_folder, "Diunkz PC Commander.lnk")
 
 # Cria o atalho na pasta de inicialização
 shell = win32com.client.Dispatch("WScript.Shell")
