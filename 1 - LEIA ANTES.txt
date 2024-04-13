@@ -1,0 +1,9 @@
+1 - Antes de tudo, execute no cmd:
+
+	python -m pip install psutil telepot pywin32
+
+2 - Finalizando a instalação, execute o programa "criar_atalho"
+
+3 - Coloque o Token do seu bot no telegram no arquivo de texto "token.txt" presente na pasta
+
+4 - reinicie o pc
